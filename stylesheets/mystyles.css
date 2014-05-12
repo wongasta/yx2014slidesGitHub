@@ -1,0 +1,205 @@
+@font-face {
+  font-family: 'sketch_blockbold';
+  src: url("../lib/font/sketch_block-webfont.eot");
+  src: url("../lib/font/sketch_block-webfont.eot?#iefix") format("embedded-opentype"), url("../lib/font/sketch_block-webfont.woff") format("woff"), url("../lib/font/sketch_block-webfont.ttf") format("truetype"), url("../lib/font/sketch_block-webfont.svg#sketch_blockbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 16, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+body {
+  background: #000;
+}
+/* line 19, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+body ul {
+  list-style-type: none;
+}
+/* line 23, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+body img {
+  border: none;
+  width: auto;
+}
+
+/* line 30, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.greenText {
+  color: #c4f094;
+}
+
+/* line 34, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.blueText {
+  color: #96d2f5;
+}
+
+/* line 38, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.greyText {
+  color: #cfcfcf;
+}
+
+/* line 42, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.yellowText {
+  color: #e1e292;
+}
+
+/* line 46, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.purpleText {
+  color: #eab8c9;
+}
+
+/* line 50, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.lightBrownText {
+  color: #d9c092;
+}
+
+/* line 54, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.tealText {
+  color: #aaf7e6;
+}
+
+/* line 58, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.orangeText {
+  color: #f2ca90;
+}
+
+/* line 62, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.redText {
+  color: #ca6b6b;
+}
+
+/* line 68, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.backgrounds .gears {
+  background: linear-gradient(rgba(101, 88, 33, 0.45), rgba(101, 88, 33, 0.45)), url("../lib/images/bgs/about.jpg");
+  background-size: 100% auto !important;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed !important;
+}
+
+/* line 82, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#loading {
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 40;
+  text-align: center;
+  padding-top: 20%;
+  box-sizing: border-box;
+}
+/* line 95, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#loading h1 {
+  margin: 0 0 20px 0;
+  font-family: "League Gothic", Impact, sans-serif;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  color: #323232;
+  font-size: 140px;
+  text-shadow: 1px 1px #717171, 2px 2px #717171, 3px 3px #717171;
+}
+
+/* line 112, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .mainHeaders {
+  position: relative;
+  top: 150px;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+/* line 118, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .rollBlock {
+  position: relative;
+}
+/* line 121, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .rollBlock .arrow {
+  position: relative;
+  top: -60px;
+  left: -20px;
+  -webkit-transform: rotate(145deg);
+  -moz-transform: rotate(145deg);
+  -ms-transform: rotate(145deg);
+  -o-transform: rotate(145deg);
+  transform: rotate(145deg);
+  border-radius: 5px;
+}
+/* line 129, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .rollBlock .myPic {
+  position: relative;
+  top: -50px;
+  left: -45px;
+}
+/* line 135, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .rollBlock .myText {
+  position: absolute;
+  font-family: sketch_blockbold;
+  font-size: 45px;
+  color: #fff;
+  left: 120px;
+  top: 270px;
+  -webkit-transform: rotate(50deg);
+  -moz-transform: rotate(50deg);
+  -ms-transform: rotate(50deg);
+  -o-transform: rotate(50deg);
+  transform: rotate(50deg);
+}
+/* line 147, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .spaceFrag {
+  position: relative;
+}
+/* line 150, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .spaceFrag p {
+  font-size: 20px;
+  margin: 5px 0;
+}
+/* line 155, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#intro .spaceFrag img {
+  margin: 5px 0;
+  width: 220px;
+}
+
+/* line 165, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+#about .times {
+  color: #000;
+  font-size: 12px;
+}
+
+/* line 175, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.techList {
+  list-style-type: none;
+  margin: 10px 0;
+}
+/* line 179, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.techList li {
+  display: inline-block;
+  margin: 5px 15px;
+  text-align: center;
+}
+/* line 184, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.techList li span {
+  display: block;
+}
+
+/* line 191, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.contactList img {
+  margin: 0;
+  opacity: 0.8;
+}
+/* line 195, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.contactList li > a {
+  font-size: 20px;
+  display: block;
+  color: #FFF;
+}
+/* line 200, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.contactList li > a:hover img {
+  opacity: 1;
+}
+
+/* line 205, C:/Users/loldongs/Dropbox/yx2014slides/sass/mystyles.scss */
+.navigate-up, .navigate-down {
+  display: none;
+}

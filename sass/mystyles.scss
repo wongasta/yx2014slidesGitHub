@@ -1,0 +1,207 @@
+@import "compass/css3/transform";
+@import "compass/css3/transition";
+@import "compass/css3/filter";
+
+@font-face {
+  font-family: 'sketch_blockbold';
+  src: url('../lib/font/sketch_block-webfont.eot');
+  src: url('../lib/font/sketch_block-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../lib/font/sketch_block-webfont.woff') format('woff'),
+  url('../lib/font/sketch_block-webfont.ttf') format('truetype'),
+  url('../lib/font/sketch_block-webfont.svg#sketch_blockbold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background: #000;
+
+  ul {
+    list-style-type: none;
+  }
+
+  img {
+    border: none;
+    width: auto;
+  }
+
+}
+
+.greenText {
+  color: #c4f094;
+}
+
+.blueText {
+  color: #96d2f5;
+}
+
+.greyText {
+  color: #cfcfcf;
+}
+
+.yellowText {
+  color: #e1e292;
+}
+
+.purpleText {
+  color: #eab8c9;
+}
+
+.lightBrownText {
+  color: #d9c092;
+}
+
+.tealText {
+  color: #aaf7e6;
+}
+
+.orangeText {
+  color: #f2ca90;
+}
+
+.redText{
+  color: #ca6b6b;
+}
+
+.backgrounds {
+
+  .gears {
+    background: linear-gradient(
+                    rgba(101, 88, 33, 0.45),
+                    rgba(101, 88, 33, 0.45)
+    ),
+    url("../lib/images/bgs/about.jpg");
+    background-size: 100% auto !important;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed !important;
+  }
+
+}
+
+#loading {
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 40;
+  text-align: center;
+  padding-top: 20%;
+  box-sizing: border-box;
+
+  h1 {
+    margin: 0 0 20px 0;
+    font-family: "League Gothic", Impact, sans-serif;
+    line-height: 0.9em;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+    color: #323232;
+    font-size: 140px;
+    text-shadow: 1px 1px #717171,
+    2px 2px #717171,
+    3px 3px #717171;
+  }
+}
+
+#intro {
+
+  .mainHeaders {
+    position: relative;
+    top: 150px;
+    @include transition(all 0.2s ease-out);
+  }
+
+  .rollBlock {
+    position: relative;
+
+    .arrow {
+      position: relative;
+      top: -60px;
+      left: -20px;
+      @include rotate(145deg);
+      border-radius: 5px;
+    }
+
+    .myPic {
+      position: relative;
+      top: -50px;
+      left: -45px;
+    }
+
+    .myText {
+      position: absolute;
+      font-family: sketch_blockbold;
+      font-size: 45px;
+      color: #fff;
+      left: 120px;
+      top: 270px;
+      @include rotate(50deg);
+    }
+
+  }
+
+  .spaceFrag {
+    position: relative;
+
+    p {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+
+    img {
+      margin: 5px 0;
+      width: 220px;
+    }
+
+  }
+
+}
+
+#about {
+  .times {
+    color: #000;
+    font-size: 12px;
+  }
+}
+
+#hipster{
+
+}
+
+.techList {
+  list-style-type: none;
+  margin: 10px 0;
+
+  li {
+    display: inline-block;
+    margin: 5px 15px;
+    text-align: center;
+
+    span{
+      display: block;
+    }
+  }
+}
+
+.contactList{
+  img{
+    margin: 0;
+    opacity: 0.8;
+  }
+  li > a{
+    font-size: 20px;
+    display: block;
+    color: #FFF;
+  }
+  li > a:hover img{
+    opacity: 1;
+  }
+}
+
+.navigate-up, .navigate-down{
+  display: none;
+}
